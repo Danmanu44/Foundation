@@ -7,15 +7,6 @@ import ExampleComponent from '../js/components/ExampleComponent'
 
 Vue.use(Vuetify)
 
-const opts = {data: () => ({
-    drawer: false,
-    group: null,
-  }),
-
-  watch: {
-    group () {
-      this.drawer = false
-    },
-  },}
+const opts = {}
 
 export default new Vuetify(opts);

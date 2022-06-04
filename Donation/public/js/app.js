@@ -5368,6 +5368,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var _images_Isa_Ali_Pantami_jpeg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../images/Isa Ali Pantami.jpeg */ "./resources/images/Isa Ali Pantami.jpeg");
+/* harmony import */ var _images_orphan_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../images/orphan.jpg */ "./resources/images/orphan.jpg");
+/* harmony import */ var _images_orphanchild_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../images/orphanchild.jpg */ "./resources/images/orphanchild.jpg");
 //
 //
 //
@@ -5439,17 +5442,173 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+ //  orphanqote,
+// orphanimage,
+// logo1,
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
-      drawer: false,
-      group: null
+      logo: _images_Isa_Ali_Pantami_jpeg__WEBPACK_IMPORTED_MODULE_0__["default"],
+      colors: ['green', 'secondary', 'yellow darken-4', 'red lighten-2', 'orange darken-1'],
+      cycle: true,
+      slides: ['First', 'Second', 'Third', 'Fourth', 'Fifth'],
+      items: [{
+        src: '../../images/orphan.jpg'
+      }, {
+        src: '../../images/orphanchild.jpg'
+      }, {
+        src: '../../images/Isa Ali Pantami.jpeg'
+      }, {
+        src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg'
+      }],
+      dialog: false
     };
-  },
-  watch: {
-    group: function group() {
-      this.drawer = false;
-    }
   }
 });
 
@@ -5495,18 +5654,7 @@ Vue.component('example-component', (__webpack_require__(/*! ./components/Example
 var vuetifyOptions = {};
 new Vue({
   el: '#app',
-  vuetify: new Vuetify(vuetifyOptions),
-  data: function data() {
-    return {
-      drawer: false,
-      group: null
-    };
-  },
-  watch: {
-    group: function group() {
-      this.drawer = false;
-    }
-  }
+  vuetify: new Vuetify(vuetifyOptions)
 });
 
 /***/ }),
@@ -10671,6 +10819,51 @@ module.exports = function (cssWithMappingToString) {
 
   return list;
 };
+
+/***/ }),
+
+/***/ "./resources/images/Isa Ali Pantami.jpeg":
+/*!***********************************************!*\
+  !*** ./resources/images/Isa Ali Pantami.jpeg ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/Isa Ali Pantami.jpeg?3c2cb3637fbb010559b19fbe74ecbd6a");
+
+/***/ }),
+
+/***/ "./resources/images/orphan.jpg":
+/*!*************************************!*\
+  !*** ./resources/images/orphan.jpg ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/orphan.jpg?5fd849905424fd4edfb2ff7e3fc2e7c2");
+
+/***/ }),
+
+/***/ "./resources/images/orphanchild.jpg":
+/*!******************************************!*\
+  !*** ./resources/images/orphanchild.jpg ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/orphanchild.jpg?5b90434c0cb03e3d6f9f15ee5e1cdbd3");
 
 /***/ }),
 
@@ -28491,106 +28684,202 @@ var render = function () {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "v-card",
-    {
-      staticClass: "mx-auto overflow-hidden",
-      attrs: { height: "400", width: "344" },
-    },
+    "div",
+    {},
     [
-      _c("v-system-bar", { attrs: { color: "deep-purple darken-3" } }),
-      _vm._v(" "),
       _c(
-        "v-app-bar",
-        { attrs: { color: "deep-purple accent-4", dark: "", prominent: "" } },
-        [
-          _c("v-app-bar-nav-icon", {
-            on: {
-              click: function ($event) {
-                $event.stopPropagation()
-                _vm.drawer = !_vm.drawer
-              },
-            },
-          }),
-          _vm._v(" "),
-          _c("v-toolbar-title", [_vm._v("My files")]),
-          _vm._v(" "),
-          _c("v-spacer"),
-          _vm._v(" "),
-          _c(
-            "v-btn",
-            { attrs: { icon: "" } },
-            [_c("v-icon", [_vm._v("mdi-magnify")])],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "v-btn",
-            { attrs: { icon: "" } },
-            [_c("v-icon", [_vm._v("mdi-filter")])],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "v-btn",
-            { attrs: { icon: "" } },
-            [_c("v-icon", [_vm._v("mdi-dots-vertical")])],
-            1
-          ),
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "v-navigation-drawer",
-        {
-          attrs: { absolute: "", bottom: "", temporary: "" },
-          model: {
-            value: _vm.drawer,
-            callback: function ($$v) {
-              _vm.drawer = $$v
-            },
-            expression: "drawer",
-          },
-        },
+        "v-app",
         [
           _c(
-            "v-list",
-            { attrs: { nav: "", dense: "" } },
+            "div",
+            { staticClass: "ma-0" },
             [
               _c(
-                "v-list-item-group",
-                {
-                  attrs: { "active-class": "deep-purple--text text--accent-4" },
-                  model: {
-                    value: _vm.group,
-                    callback: function ($$v) {
-                      _vm.group = $$v
-                    },
-                    expression: "group",
-                  },
-                },
+                "v-app-bar",
+                { attrs: { permanent: "", dark: "", fixed: "" } },
                 [
-                  _c(
-                    "v-list-item",
-                    [_c("v-list-item-title", [_vm._v("Foo")])],
-                    1
-                  ),
+                  _c("div", [_c("v-toolbar-title", [_vm._v("PAPSO")])], 1),
                   _vm._v(" "),
                   _c(
-                    "v-list-item",
-                    [_c("v-list-item-title", [_vm._v("Bar")])],
-                    1
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "v-list-item",
-                    [_c("v-list-item-title", [_vm._v("Fizz")])],
-                    1
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "v-list-item",
-                    [_c("v-list-item-title", [_vm._v("Buzz")])],
+                    "v-row",
+                    { attrs: { justify: "center" } },
+                    [
+                      _c(
+                        "v-dialog",
+                        {
+                          attrs: { persistent: "", "max-width": "600px" },
+                          scopedSlots: _vm._u([
+                            {
+                              key: "activator",
+                              fn: function (ref) {
+                                var on = ref.on
+                                var attrs = ref.attrs
+                                return [
+                                  _c(
+                                    "v-btn",
+                                    _vm._g(
+                                      _vm._b(
+                                        {
+                                          attrs: {
+                                            color: "warning",
+                                            dark: "",
+                                            small: "",
+                                            width: "100px",
+                                          },
+                                        },
+                                        "v-btn",
+                                        attrs,
+                                        false
+                                      ),
+                                      on
+                                    ),
+                                    [_vm._v("\n         Donate Now\n        ")]
+                                  ),
+                                ]
+                              },
+                            },
+                          ]),
+                          model: {
+                            value: _vm.dialog,
+                            callback: function ($$v) {
+                              _vm.dialog = $$v
+                            },
+                            expression: "dialog",
+                          },
+                        },
+                        [
+                          _vm._v(" "),
+                          _c(
+                            "v-card",
+                            [
+                              _c("v-card-title", [
+                                _c("span", { staticClass: "text-h5" }, [
+                                  _vm._v("Donate Now"),
+                                ]),
+                              ]),
+                              _vm._v(" "),
+                              _c(
+                                "v-card-text",
+                                [
+                                  _c(
+                                    "v-container",
+                                    [
+                                      _c(
+                                        "v-row",
+                                        [
+                                          _c(
+                                            "v-chip",
+                                            {
+                                              staticClass: "ma-3",
+                                              attrs: {
+                                                color: "warning",
+                                                outlined: "",
+                                                small: "",
+                                              },
+                                            },
+                                            [
+                                              _c(
+                                                "span",
+                                                {
+                                                  staticStyle: {
+                                                    padding: "5px",
+                                                  },
+                                                },
+                                                [_vm._v(" Fund")]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "v-icon",
+                                                { attrs: { left: "" } },
+                                                [
+                                                  _vm._v(
+                                                    "\n        mdi-arrow-right\n      "
+                                                  ),
+                                                ]
+                                              ),
+                                            ],
+                                            1
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "span",
+                                            { attrs: { width: "20px" } },
+                                            [
+                                              _c("v-text-field", {
+                                                style: { top: "10px" },
+                                                attrs: {
+                                                  solo: "",
+                                                  label: "Amount",
+                                                  color: "warning",
+                                                  "prepend-inner-icon":
+                                                    "mdi-currency-ngn",
+                                                  type: "currency",
+                                                  height: "20px",
+                                                },
+                                              }),
+                                            ],
+                                            1
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "v-btn",
+                                            {
+                                              attrs: {
+                                                small: "",
+                                                color: "success",
+                                                dark: "",
+                                              },
+                                            },
+                                            [
+                                              _vm._v(
+                                                "\n              Donate\n            "
+                                              ),
+                                            ]
+                                          ),
+                                        ],
+                                        1
+                                      ),
+                                    ],
+                                    1
+                                  ),
+                                  _vm._v(" "),
+                                  _c("small", [
+                                    _vm._v("*pay any penny to save orphans"),
+                                  ]),
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "v-card-actions",
+                                [
+                                  _c("v-spacer"),
+                                  _vm._v(" "),
+                                  _c(
+                                    "v-btn",
+                                    {
+                                      attrs: {
+                                        color: "blue darken-1",
+                                        text: "",
+                                      },
+                                      on: {
+                                        click: function ($event) {
+                                          _vm.dialog = false
+                                        },
+                                      },
+                                    },
+                                    [_vm._v("\n            Close\n          ")]
+                                  ),
+                                ],
+                                1
+                              ),
+                            ],
+                            1
+                          ),
+                        ],
+                        1
+                      ),
+                    ],
                     1
                   ),
                 ],
@@ -28599,15 +28888,194 @@ var render = function () {
             ],
             1
           ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticStyle: { "margin-top": "60px" } },
+            [
+              _c(
+                "v-main",
+                { style: { top: "150px", zIndex: 4 }, attrs: { app: "" } },
+                [
+                  _c(
+                    "v-container",
+                    { attrs: { fluid: "" } },
+                    [
+                      _c(
+                        "v-card",
+                        {
+                          staticClass: "mx-auto",
+                          style: { bottom: "10px" },
+                          attrs: { elevation: "24" },
+                        },
+                        [
+                          _c("v-system-bar", { attrs: { "lights-out": "" } }),
+                          _vm._v(" "),
+                          _c(
+                            "v-carousel",
+                            {
+                              attrs: {
+                                continuous: false,
+                                cycle: _vm.cycle,
+                                "show-arrows": false,
+                                "hide-delimiter-background": "",
+                                "delimiter-icon": "mdi-minus",
+                                height: "300",
+                              },
+                            },
+                            _vm._l(_vm.items, function (item, i) {
+                              return _c("v-carousel-item", {
+                                key: i,
+                                attrs: {
+                                  src: item.src,
+                                  "reverse-transition": "fade-transition",
+                                  transition: "fade-transition",
+                                },
+                              })
+                            }),
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "v-list",
+                            { attrs: { "two-line": "" } },
+                            [
+                              _c(
+                                "v-list-item",
+                                [
+                                  _c(
+                                    "v-list-item-avatar",
+                                    {
+                                      attrs: {
+                                        height: "100px",
+                                        width: "100px",
+                                      },
+                                    },
+                                    [
+                                      _c("img", {
+                                        attrs: {
+                                          src: " ../../images/Isa Ali Pantami.jpeg",
+                                        },
+                                      }),
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "v-list-item-content",
+                                    [
+                                      _c("v-list-item-title", [
+                                        _vm._v("Prof. Sheikh Isa Ali Pantami"),
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("v-list-item-subtitle", [
+                                        _vm._v("Author"),
+                                      ]),
+                                    ],
+                                    1
+                                  ),
+                                ],
+                                1
+                              ),
+                            ],
+                            1
+                          ),
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-card",
+                        { staticClass: "mx-auto", attrs: { elevation: "24" } },
+                        [
+                          _c("v-system-bar", { attrs: { "lights-out": "" } }),
+                          _vm._v(" "),
+                          _c(
+                            "v-carousel",
+                            {
+                              attrs: {
+                                continuous: false,
+                                cycle: _vm.cycle,
+                                "show-arrows": false,
+                                "hide-delimiter-background": "",
+                                "delimiter-icon": "mdi-minus",
+                                height: "300",
+                              },
+                            },
+                            _vm._l(_vm.items, function (item, i) {
+                              return _c("v-carousel-item", {
+                                key: i,
+                                attrs: {
+                                  src: item.src,
+                                  "reverse-transition": "fade-transition",
+                                  transition: "fade-transition",
+                                },
+                              })
+                            }),
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "v-list",
+                            { attrs: { "two-line": "" } },
+                            [
+                              _c(
+                                "v-list-item",
+                                [
+                                  _c(
+                                    "v-list-item-avatar",
+                                    {
+                                      attrs: {
+                                        height: "100px",
+                                        width: "100px",
+                                      },
+                                    },
+                                    [
+                                      _c("img", {
+                                        attrs: {
+                                          src: " ../../images/Isa Ali Pantami.jpeg",
+                                        },
+                                      }),
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "v-list-item-content",
+                                    [
+                                      _c("v-list-item-title", [
+                                        _vm._v("Prof. Sheikh Isa Ali Pantami"),
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("v-list-item-subtitle", [
+                                        _vm._v("Author"),
+                                      ]),
+                                    ],
+                                    1
+                                  ),
+                                ],
+                                1
+                              ),
+                            ],
+                            1
+                          ),
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("router-view"),
+                    ],
+                    1
+                  ),
+                ],
+                1
+              ),
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("v-footer", { attrs: { app: "" } }),
         ],
         1
       ),
-      _vm._v(" "),
-      _c("v-card-text", [
-        _vm._v(
-          "\n    The navigation drawer will appear from the bottom on smaller size screens.\n  "
-        ),
-      ]),
     ],
     1
   )

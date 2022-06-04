@@ -23,47 +23,24 @@
                 font-family: 'Nunito', sans-serif;
             }
         </style>
+
     </head>
     <body class="antialiased">
      
            
 
             <div id="app">
-        {{-- <v-app app>
-            <v-container>
-                <v-btn color="primary">
-                    Primary
-                </v-btn>
-                <v-btn color="secondary">
-                    Secondary
-                </v-btn>
-                <v-btn color="error">
-                    Error
-                </v-btn>
-            </v-container>
-        </v-app>
-        --}}
-                 
-            <example-component></example-component>
-        
-    </div>
-            <script defer src="{{ mix('js/app.js') }}"></script>
-            <script src="{{ asset('js/app.js') }}"></script>
-           
+                <v-app>
+                    <example-component></example-component>
 
-            <script>
-                export default {
-                  data: () => ({
-                    drawer: false,
-                    group: null,
-                  }),
-              
-                  watch: {
-                    group () {
-                      this.drawer = false
-                    },
-                  },
-                }
-              </script>
+                </v-app>
+      
+                 
+        
+            </div>
+        
+
+            <script src="{{ asset('js/app.js') }}"></script>
+
     </body>
 </html>

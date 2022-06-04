@@ -36,17 +36,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
  
  new Vue({
    el: '#app',
-   vuetify: new Vuetify(vuetifyOptions),
-   data: () => ({
-    drawer: false,
-    group: null,
-  }),
-
-  watch: {
-    group () {
-      this.drawer = false
-    },
-  },
+   vuetify: new Vuetify(vuetifyOptions)
   
   
  })
